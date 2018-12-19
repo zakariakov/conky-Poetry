@@ -1,0 +1,6 @@
+#!/bin/bash
+
+TXT=$(cat ./poet.txt | sort --random-sort | head -n 1)
+
+convert -background black -size 660x120  -gravity Center  -fill '#00FFEF' -font IranNastaliq -density 96 -pointsize 20  caption:"$TXT" ~/.cache/poet.png
+
