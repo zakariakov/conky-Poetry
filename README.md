@@ -10,4 +10,4 @@ with
 
 own_window_type override
 
-in a file conkyrc2
+in file conkyrc2
